@@ -120,7 +120,7 @@
 
 <div class="container">
     <div class="header">
-      <img src="Whatsapp Image 2026-02-11 at 08.31.27.jpeg">
+      <img src="WhatsApp Image 2026-02-11 at 08.31.27.jpeg">
         <h1>MUHAMAD ALFAIZIN</h1>
         <p>SISWA SMKN 1 RANGKASBITUNG| JURUSAN | TEKNIK JARINGAN KOMMPUTER DAN TELEKOMUNIKASI</p>
     </div>
