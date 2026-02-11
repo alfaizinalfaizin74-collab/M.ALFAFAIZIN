@@ -120,16 +120,16 @@
 
 <div class="container">
     <div class="header">
-        <img src="profile.jpg" alt="Foto Profil">
-        <h1>Nama Kamu</h1>
-        <p>Web Developer | UI Designer | Freelancer</p>
+        <img src="img/profile.jpg" alt="Foto Profil">
+        <h1>MUHAMAD ALFAIZIN</h1>
+        <p>SISWA SMKN 1 RANGKASBITUNG| JURUSAN | TEKNIK JARINGAN KOMMPUTER DAN TELEKOMUNIKASI</p>
     </div>
 
     <div class="content">
         <div class="sidebar">
             <h2>Kontak</h2>
             <ul>
-                <li>Email: alfaizinalfaizin74@gmail.com</li>
+                <li>Email: alfaizin74@gmail.com</li>
                 <li>Phone: 0895424718827</li>
                 <li>GitHub: github.com/alfaizin</li>
               
@@ -146,7 +146,7 @@
             <h2>Pendidikan</h2>
             <ul>
                 <li>JURUSAN Teknik Jaringan Komputer dan Telekomunikasi</li>
-                <li>Lulusan SISWA SMKN 1 RANGKASBITUNG (2020-2024)</li>
+                <li>Lulusan SISWA SMKN 1 RANGKASBITUNG (2025-2026)</li>
             </ul>
         </div>
 
@@ -162,21 +162,9 @@
             <h2>Pengalaman PKL</h2>
 
             <div class="job">
-                <h3>Frontend Developer</h3>
-                <span>PT Contoh Indonesia | 2023 - Sekarang</span>
-                <p>Mengembangkan dan maintenance website perusahaan menggunakan React dan Tailwind.</p>
+                <h3> BPJS KABUPATEN LEBAK</h3>
+                <p>Mendaftarkan mobile jkn, merubah faskes, merubah data peserta  .</p>
             </div>
 
-            <div class="job">
-                <h3>Freelance Web Designer</h3>
-                <span>2022 - 2023</span>
-                <p>Membuat desain dan website untuk UMKM dan personal branding.</p>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-</body>
-</html>
+           
 
