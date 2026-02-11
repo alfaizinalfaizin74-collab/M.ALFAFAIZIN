@@ -1,10 +1,13 @@
-
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
+    <title>Zarr.id - Top Up Mobile Legends Murah</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Digital - Nama Kamu</title>
+
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <style>
         * {
             margin: 0;
@@ -14,157 +17,165 @@
         }
 
         body {
-            background: linear-gradient(135deg, #1e3c72, #2a5298);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-        }
-
-        .container {
-            background: #ffffff;
-            max-width: 900px;
-            width: 100%;
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-        }
-
-        .header {
-            background: linear-gradient(135deg, #667eea, #764ba2);
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
             color: white;
+        }
+
+        header {
+            padding: 20px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.4);
+            backdrop-filter: blur(10px);
+        }
+
+        header h1 {
+            color: #00f2ff;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #00f2ff;
+        }
+
+        .hero {
             text-align: center;
-            padding: 40px 20px;
+            padding: 100px 20px;
         }
 
-        .header img {
-            width: 140px;
-            height: 140px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid white;
-            margin-bottom: 15px;
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 20px;
         }
 
-        .header h1 {
-            font-size: 28px;
-            font-weight: 700;
-        }
-
-        .header p {
-            font-size: 16px;
-            opacity: 0.9;
-        }
-
-        .content {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-        }
-
-        .sidebar {
-            background: #f4f6f9;
-            padding: 30px;
-        }
-
-        .main {
-            padding: 30px;
-        }
-
-        h2 {
+        .hero p {
             font-size: 18px;
-            margin-bottom: 15px;
-            color: #333;
-            border-bottom: 2px solid #667eea;
-            display: inline-block;
-            padding-bottom: 5px;
+            margin-bottom: 30px;
+            color: #ccc;
         }
 
-        ul {
-            list-style: none;
-            margin-bottom: 20px;
-        }
-
-        ul li {
-            margin-bottom: 8px;
-            font-size: 14px;
-        }
-
-        .job {
-            margin-bottom: 20px;
-        }
-
-        .job h3 {
-            font-size: 16px;
+        .btn {
+            background: #00f2ff;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            color: black;
             font-weight: 600;
+            transition: 0.3s;
         }
 
-        .job span {
-            font-size: 13px;
-            color: gray;
+        .btn:hover {
+            background: white;
         }
 
-        .job p {
+        .products {
+            padding: 60px 10%;
+            text-align: center;
+        }
+
+        .products h2 {
+            margin-bottom: 40px;
+            font-size: 32px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background: rgba(255,255,255,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color: #00f2ff;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.5);
+            margin-top: 50px;
             font-size: 14px;
-            margin-top: 5px;
-        }
-
-        @media(max-width: 768px) {
-            .content {
-                grid-template-columns: 1fr;
-            }
+            color: #aaa;
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <div class="header">
-      <img src="WhatsApp Image 2026-02-11 at 08.31.27.jpeg">
-        <h1>MUHAMAD ALFAIZIN</h1>
-        <p>SISWA SMKN 1 RANGKASBITUNG| JURUSAN | TEKNIK JARINGAN KOMMPUTER DAN TELEKOMUNIKASI</p>
-    </div>
+    <header>
+        <h1>Zarr.id</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#produk">Produk</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Kontak</h2>
-            <ul>
-                <li>Email: alfaizin74@gmail.com</li>
-                <li>Phone: 0895424718827</li>
-                <li>GitHub: github.com/alfaizin</li>
-              
-            </ul>
+    <section class="hero">
+        <h2>Top Up Mobile Legends Termurah & Terpercaya</h2>
+        <p>Proses cepat • Harga bersahabat • 100% Aman</p>
+        <a href="#produk" class="btn">Beli Sekarang</a>
+    </section>
 
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML & CSS</li>
-                <li>JavaScript</li>
-                <li>React JS</li>
-                <li>UI/UX Design</li>
-            </ul>
+    <section class="products" id="produk">
+        <h2>Paket Diamond Mobile Legends</h2>
+        <div class="product-grid">
 
-            <h2>Pendidikan</h2>
-            <ul>
-                <li>JURUSAN Teknik Jaringan Komputer dan Telekomunikasi</li>
-                <li>Lulusan SISWA SMKN 1 RANGKASBITUNG (2025-2026)</li>
-            </ul>
-        </div>
-
-        <div class="main">
-            <h2>Tentang Saya</h2>
-            <p>
-                Saya adalah seorang  SISWA SMKN 1 RANGKASBITUNG  SAYA developer yang berfokus pada pembuatan website modern,
-                responsif, dan user-friendly. Berpengalaman dalam pengembangan frontend dan desain UI.
-            </p>
-
-            <br>
-
-            <h2>Pengalaman PKL</h2>
-
-            <div class="job">
-                <h3> BPJS KABUPATEN LEBAK</h3>
-                <p>Mendaftarkan mobile jkn, merubah faskes, merubah data peserta  .</p>
+            <div class="card">
+                <h3>86 Diamond</h3>
+                <p class="price">Rp 20.000</p>
+                <a href="#" class="btn">Beli</a>
             </div>
 
-           
+            <div class="card">
+                <h3>172 Diamond</h3>
+                <p class="price">Rp 38.000</p>
+                <a href="#" class="btn">Beli</a>
+            </div>
 
+            <div class="card">
+                <h3>257 Diamond</h3>
+                <p class="price">Rp 55.000</p>
+                <a href="#" class="btn">Beli</a>
+            </div>
+
+            <div class="card">
+                <h3>344 Diamond</h3>
+                <p class="price">Rp 72.000</p>
+                <a href="#" class="btn">Beli</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Zarr.id - Top Up Mobile Legends Murah & Aman
+    </footer>
+
+</body>
+</html>
